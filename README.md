@@ -1,4 +1,4 @@
-# WaOC
+# WaOC [![Gem Version](https://badge.fury.io/rb/waoc.svg)](http://badge.fury.io/rb/waoc)
 Workflow automation Opencode
 
 --------
