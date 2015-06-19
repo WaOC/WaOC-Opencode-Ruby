@@ -1,4 +1,4 @@
-# WaOC [![Gem Version](https://badge.fury.io/rb/waoc.svg)](http://badge.fury.io/rb/waoc)
+# WaOC [![Gem Version](https://badge.fury.io/rb/waoc.svg)](http://badge.fury.io/rb/waoc) [![Code Climate](https://codeclimate.com/github/WaOC/WaOC-Ruby/badges/gpa.svg)](https://codeclimate.com/github/WaOC/WaOC-Ruby)
 Workflow automation Opencode
 
 --------
