@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+
+require 'waoc'
+
+opt1 = ARGV[0] #comando
+
+case opt1
+when "install"
+    WaOC.install
+    
+when "edit"
+    opt2 = ARGV[1] #{{store_id}}
+    opt3 = ARGV[2] #{{dev_key}}
+    opt4 = ARGV[3] #{{pass_key}}
+    opt5 = ARGV[4] #{{theme_id}}
+    WaOC.edit opt2, opt3, opt4, opt5
+
+when "work"    
+    opt2 = ARGV[1] #{{store_id}}
+    WaOC.work opt2
+    
+when "stop"
+    puts "✔ Todos os processos foram parados"
+    WaOC.stop
+    WaOC.stop
+    puts "✔ Todos os processos foram parados"
+
+when "version"
+    WaOC.version
+    
+when nil
+    puts "Sem argumentos"
+    
+else
+    puts "Comando nao encontrado"
+end
