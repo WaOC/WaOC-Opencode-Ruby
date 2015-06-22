@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'waoc'
-  s.version     = '1.0.1'
+  s.version     = '1.1.1'
   s.executables << 'waoc'
   s.date        = '2015-06-19'
   s.summary     = "Waoc"
