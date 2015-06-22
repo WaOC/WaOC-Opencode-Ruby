@@ -5,7 +5,7 @@ class WaOC
         sleep 1
         
         puts "Baixando os arquivos"
-        system "wget https://github.com/WaOC/WaOC-CDN/raw/master/opencode_theme-0.0.2.gem"
+        system "wget https://github.com/WaOC/WaOC-CDN/raw/master/opencode_theme-0.0.3.gem"
         system "wget https://raw.githubusercontent.com/WaOC/WaOC-CDN/master/gulpfile.js"
         system "wget https://raw.githubusercontent.com/WaOC/WaOC-CDN/master/package.json"
         
