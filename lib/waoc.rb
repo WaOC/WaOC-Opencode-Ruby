@@ -11,7 +11,7 @@ class WaOC
         
         puts "Instalando OpenCode"
         sleep 1
-        system "gem install opencode_theme-0.0.2.gem"
+        system "gem install opencode_theme-0.0.3.gem"
         
         puts "Instalando as dependências com NPM"
         system "npm install"
