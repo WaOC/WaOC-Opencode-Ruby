@@ -5,13 +5,13 @@ class WaOC
         sleep 1
         
         puts "Baixando os arquivos"
-        system "wget https://github.com/WaOC/WaOC-CDN/raw/master/opencode_theme-0.0.3.gem"
+        system "wget https://github.com/WaOC/WaOC-CDN/raw/master/opencode_theme-0.0.4.gem"
         system "wget https://raw.githubusercontent.com/WaOC/WaOC-CDN/master/gulpfile.js"
         system "wget https://raw.githubusercontent.com/WaOC/WaOC-CDN/master/package.json"
         
         puts "Instalando OpenCode"
         sleep 1
-        system "gem install opencode_theme-0.0.3.gem"
+        system "gem install opencode_theme-0.0.4.gem"
         
         puts "Instalando as dependências com NPM"
         system "npm install"
