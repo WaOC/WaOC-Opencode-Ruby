@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name        = 'waoc'
-  s.version     = '1.2.2'
+  s.version     = '1.2.3'
   s.executables << 'waoc'
-  s.date        = '2015-06-19'
+  s.date        = '2015-09-17'
   s.summary     = "Waoc"
   s.description = "Waoc for OpenCode"
   s.authors     = ["Evandro Zanatta"]
