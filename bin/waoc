@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'waoc'
+require 'fileutils'
 
 opt1 = ARGV[0] #comando
 
