@@ -13,7 +13,7 @@ class WaOC
         system "gem install opencode_theme"
         
         puts "Instalando as dependências com NPM"
-        system "npm install"
+        system "sudo npm install"
         
         puts "✔ Opencode instalado com sucesso"
     end    
