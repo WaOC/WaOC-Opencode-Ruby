@@ -25,7 +25,7 @@ waoc install
 waoc edit {{STORE_ID}} {{API_KEY}} {{API_PASSWORD}} {{THEME_ID}}
 ```
 
-#### Modo Work
+#### Modo Work(DEPRECIADO - Somente versões antigas do gulp)
 O modo work, aciona automáticamente o `opencode watch` e também o `gulp`.
 ``` shell
 #waoc work 123456
